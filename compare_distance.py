@@ -6,12 +6,12 @@ import pandas as pd
 import streamlit as st
 import mysql.connector
 
-# connection = mysql.connector.connect(
-#     host="localhost",
-#     user="root",
-#     password="",
-#     database="chroma"
-# )
+connection = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="",
+    database="chroma"
+)
 
 # if connection.is_connected():
 #     print("Connected to MySQL database")
